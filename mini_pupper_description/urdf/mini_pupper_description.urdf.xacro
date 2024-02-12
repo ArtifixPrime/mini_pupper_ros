@@ -447,7 +447,7 @@
     </collision>
   </link>
 
-  <link name="Shell_Hip_Left_1">
+  <link name="lpf1">
     <inertial>
       <origin xyz="0.002258882765982295 0.008667473212030541 -0.002747896746317195" rpy="0 0 0"/>
       <mass value="0.002573897544461238"/>
@@ -456,19 +456,19 @@
     <visual>
       <origin xyz="-0.071565 -0.038245 -0.013057" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Hip_Left_1.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/lpf1.stl" scale="1 1 1"/>
       </geometry>
       <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="-0.071565 -0.038245 -0.013057" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Hip_Left_1.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/lpf1.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
 
-  <link name="Shell_Hip_Left_2">
+  <link name="lpb1">
     <inertial>
       <origin xyz="0.0022592683660053597 0.008667473212031727 -0.0027478967463174797" rpy="0 0 0"/>
       <mass value="0.002573897544461238"/>
@@ -477,19 +477,19 @@
     <visual>
       <origin xyz="0.048967 -0.038245 -0.013057" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Hip_Left_2.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/lpb1.stl" scale="1 1 1"/>
       </geometry>
       <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="0.048967 -0.038245 -0.013057" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Hip_Left_2.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/lpb1.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
 
-  <link name="Shell_Hip_Right_1">
+  <link name="rpf1">
     <inertial>
       <origin xyz="0.002219644336096324 -0.008605630927951344 -0.002709000699399786" rpy="0 0 0"/>
       <mass value="0.002396251664132183"/>
@@ -498,19 +498,19 @@
     <visual>
       <origin xyz="-0.071565 0.037755 -0.013057" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Hip_Right_1.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/rpf1.stl" scale="1 1 1"/>
       </geometry>
       <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="-0.071565 0.037755 -0.013057" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Hip_Right_1.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/rpf1.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
 
-  <link name="Shell_Hip_Right_2">
+  <link name="rpb1">
     <inertial>
       <origin xyz="0.0022200295152449145 -0.008607013686777375 -0.0027033986949916797" rpy="0 0 0"/>
       <mass value="0.002396251664132183"/>
@@ -519,19 +519,19 @@
     <visual>
       <origin xyz="0.048967 0.037748 -0.013064" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Hip_Right_2.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/rpb1.stl" scale="1 1 1"/>
       </geometry>
       <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="0.048967 0.037748 -0.013064" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Hip_Right_2.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/rpb1.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
 
-  <link name="Shell_Leg_Upper_LeftSide_1">
+  <link name="lpf2">
     <inertial>
       <origin xyz="-0.001747332142694763 0.00790352811362327 0.005364507913861985" rpy="0 0 0"/>
       <mass value="0.0022314211131891203"/>
@@ -540,19 +540,19 @@
     <visual>
       <origin xyz="-0.048863 -0.044445 0.018654" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Leg_Upper_LeftSide_1.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/lpf2.stl" scale="1 1 1"/>
       </geometry>
       <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="-0.048863 -0.044445 0.018654" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Leg_Upper_LeftSide_1.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/lpf2.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
 
-  <link name="Shell_Leg_Upper_LeftSide_2">
+  <link name="lpb2">
     <inertial>
       <origin xyz="-0.001747730780760487 0.007903528639619323 0.005365117008527457" rpy="0 0 0"/>
       <mass value="0.0022314211131891203"/>
@@ -561,19 +561,19 @@
     <visual>
       <origin xyz="0.071666 -0.044445 0.018655" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Leg_Upper_LeftSide_2.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/lpb2.stl" scale="1 1 1"/>
       </geometry>
       <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="0.071666 -0.044445 0.018655" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Leg_Upper_LeftSide_2.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/lpb2.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
 
-  <link name="Shell_Leg_Upper_RightSide_1">
+  <link name="rpf2">
     <inertial>
       <origin xyz="-0.0018083907227202795 -0.007907075713007514 0.005388328467850496" rpy="0 0 0"/>
       <mass value="0.002201611562253873"/>
@@ -582,19 +582,19 @@
     <visual>
       <origin xyz="-0.048865 0.043955 0.018655" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Leg_Upper_RightSide_1.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/rpf2.stl" scale="1 1 1"/>
       </geometry>
       <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="-0.048865 0.043955 0.018655" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Leg_Upper_RightSide_1.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/rpf2.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
 
-  <link name="Shell_Leg_Upper_RightSide_2">
+  <link name="rpb2">
     <inertial>
       <origin xyz="-0.0018090055415128231 -0.007904339012704771 0.005392934920359041" rpy="0 0 0"/>
       <mass value="0.002201611562253873"/>
@@ -603,14 +603,14 @@
     <visual>
       <origin xyz="0.071666 0.043965 0.018644" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Leg_Upper_RightSide_2.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/rpb2.stl" scale="1 1 1"/>
       </geometry>
       <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="0.071666 0.043965 0.018644" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/Shell_Leg_Upper_RightSide_2.stl" scale="1 1 1"/>
+        <mesh filename="package://mini_pupper_description/meshes/rpb2.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -789,49 +789,49 @@
   <joint name="lf1_hip" type="fixed">
     <origin xyz="0.034266 0.0145 0.013" rpy="0 0 0"/>
     <parent link="lf1"/>
-    <child link="Shell_Hip_Left_1"/>
+    <child link="lpf1"/>
   </joint>
 
   <joint name="lb1_hip" type="fixed">
     <origin xyz="-0.006266 0.0145 0.013" rpy="0 0 0"/>
     <parent link="lb1"/>
-    <child link="Shell_Hip_Left_2"/>
+    <child link="lpb1"/>
   </joint>
 
   <joint name="rf1_hip" type="fixed">
     <origin xyz="0.034266 -0.0145 0.013" rpy="0 0 0"/>
     <parent link="rf1"/>
-    <child link="Shell_Hip_Right_1"/>
+    <child link="rpf1"/>
   </joint>
 
   <joint name="rb2_hip" type="fixed">
     <origin xyz="-0.006266 -0.014493 0.013007" rpy="0 0 0"/>
     <parent link="rb1"/>
-    <child link="Shell_Hip_Right_2"/>
+    <child link="rpb1"/>
   </joint>
 
   <joint name="lf2_shell" type="fixed">
     <origin xyz="-0.003302 0.003 -0.018711" rpy="0 0 0"/>
     <parent link="lf2"/>
-    <child link="Shell_Leg_Upper_LeftSide_1"/>
+    <child link="lpf2"/>
   </joint>
 
   <joint name="lb2_shell" type="fixed">
     <origin xyz="-0.003299 0.003 -0.018712" rpy="0 0 0"/>
     <parent link="lb2"/>
-    <child link="Shell_Leg_Upper_LeftSide_2"/>
+    <child link="lpb2"/>
   </joint>
 
   <joint name="rf2_shell" type="fixed">
     <origin xyz="-0.0033 -0.003 -0.018712" rpy="0 0 0"/>
     <parent link="rf2"/>
-    <child link="Shell_Leg_Upper_RightSide_1"/>
+    <child link="rpf2"/>
   </joint>
 
   <joint name="rb2_shell" type="fixed">
     <origin xyz="-0.003299 -0.00301 -0.01871" rpy="0 0 0"/>
     <parent link="rb2"/>
-    <child link="Shell_Leg_Upper_RightSide_2"/>
+    <child link="rpb2"/>
   </joint>
 
   <joint name="base_sides" type="fixed">
@@ -921,7 +921,7 @@
     <minDepth>0.001</minDepth>
     <material>Gazebo/FlatBlack</material>
   </gazebo>
-  <gazebo reference="Shell_Hip_Left_1">
+  <gazebo reference="lpf1">
     <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="lf2">
@@ -933,7 +933,7 @@
     <minDepth>0.001</minDepth>
     <material>Gazebo/FlatBlack</material>
   </gazebo>
-  <gazebo reference="Shell_Leg_Upper_LeftSide_1">
+  <gazebo reference="lpf2">
     <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="lf3">
@@ -963,7 +963,7 @@
     <minDepth>0.001</minDepth>
     <material>Gazebo/FlatBlack</material>
   </gazebo>
-  <gazebo reference="Shell_Hip_Right_1">
+  <gazebo reference="rpf1">
     <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="rf2">
@@ -975,7 +975,7 @@
     <minDepth>0.001</minDepth>
     <material>Gazebo/FlatBlack</material>
   </gazebo>
-  <gazebo reference="Shell_Leg_Upper_RightSide_1">
+  <gazebo reference="rpf2">
     <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="rf3">
@@ -1005,7 +1005,7 @@
     <minDepth>0.001</minDepth>
     <material>Gazebo/FlatBlack</material>
   </gazebo>
-  <gazebo reference="Shell_Hip_Left_2">
+  <gazebo reference="lpb1">
     <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="lb2">
@@ -1017,7 +1017,7 @@
     <minDepth>0.001</minDepth>
     <material>Gazebo/FlatBlack</material>
   </gazebo>
-  <gazebo reference="Shell_Leg_Upper_LeftSide_2">
+  <gazebo reference="lpb2">
     <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="lb3">
@@ -1047,7 +1047,7 @@
     <minDepth>0.001</minDepth>
     <material>Gazebo/FlatBlack</material>
   </gazebo>
-  <gazebo reference="Shell_Hip_Right_2">
+  <gazebo reference="rpb1">
     <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="rb2">
@@ -1059,7 +1059,7 @@
     <minDepth>0.001</minDepth>
     <material>Gazebo/FlatBlack</material>
   </gazebo>
-  <gazebo reference="Shell_Leg_Upper_RightSide_2">
+  <gazebo reference="rpb2">
     <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="rb3">
